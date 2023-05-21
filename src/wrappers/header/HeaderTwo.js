@@ -32,8 +32,8 @@ const HeaderTwo = () => {
             <div className="col-lg-2 offset-lg-5 d-none d-lg-block text-center">
               {/* header logo */}
               <Logo
-                imageUrl="/assets/img/logo/LOGO3.png"
-                logoClass="logo-hm-9"
+                imageUrl="/assets/img/logo/shanu.png"
+                logoClass="logo-hm5"
               />
             </div>
           </div>
@@ -48,7 +48,7 @@ const HeaderTwo = () => {
           <div className="row">
             <div className="col-6 d-block d-lg-none">
               {/* header logo */}
-              <Logo imageUrl="/assets/img/logo/logo.png" />
+              <Logo imageUrl="/assets/img/logo/shanu.png" />
             </div>
             <div className="col-6 d-block d-lg-none">
               {/* Icon group */}
