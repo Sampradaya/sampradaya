@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "/assets/img/banner/banner-13.png",
-    "title": "Candles",
+    "title": "Peepal",
     "subtitle": "Starting at",
     "price": "$99.00",
     "link": "/shop-grid-standard"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "image": "/assets/img/banner/banner-14.png",
-    "title": "Soaps",
+    "title": "Banyan",
     "subtitle": "Starting at",
     "price": "$79.00",
     "link": "/shop-grid-standard"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "image": "/assets/img/banner/banner-15.png",
-    "title": "Creams",
+    "title": "Aloe Vera",
     "subtitle": "Starting at",
     "price": "$29.00",
     "link": "/shop-grid-standard"
