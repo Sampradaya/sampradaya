@@ -1,22 +1,13 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import SectionTitle from "../../components/section-title/SectionTitle";
 import SEO from "../../components/seo";
-import LayoutThree from "../../layouts/LayoutThree";
-import NewsletterTwo from "../../wrappers/newsletter/NewsletterTwo";
+
 
 const HomeGridBanner = () => {
   return (
     <Fragment>
-      <SEO
-        titleTemplate="Grid Banner Home"
-        description="Grid banner home of flone react minimalist eCommerce template."
-      />
-      <LayoutThree
-        headerTop="visible"
-        headerContainerClass="container-fluid"
-        headerBorderStyle="fluid-border"
-        headerPaddingClass="header-padding-2"
-      >
+      <SectionTitle titleText="DAILY DEALS!" positionClass="text-center" />
         {/* grid banner */}
         <div className="product-area hm6-section-padding pb-80">
           <div className="container-fluid">
@@ -225,9 +216,8 @@ const HomeGridBanner = () => {
           </div>
         </div>
 
-        {/* newsletter */}
-        <NewsletterTwo spaceBottomClass="pb-100" />
-      </LayoutThree>
+        
+     
     </Fragment>
   );
 };
