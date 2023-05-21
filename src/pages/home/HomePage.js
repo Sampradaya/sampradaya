@@ -26,7 +26,6 @@ const HomePage = () => {
         <div className="pt-30">
         <HomeGridBanner/>
         </div>
-        <HomeGridBanner/>
         
         {/* feature icon */}
         <FeatureIconThree
