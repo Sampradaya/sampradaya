@@ -23,10 +23,7 @@ const HomePage = () => {
 
         
         {/* grid banner */}
-        <div  className="pt-30">
         <HomeGridBanner/>
-        </div>
-        
         
         {/* feature icon */}
         <FeatureIconThree
