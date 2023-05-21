@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import SectionTitle from "../../components/section-title/SectionTitle";
-import SEO from "../../components/seo";
 
 
 const HomeGridBanner = () => {

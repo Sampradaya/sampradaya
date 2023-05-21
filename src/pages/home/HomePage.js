@@ -3,10 +3,8 @@ import SEO from "../../components/seo";
 import LayoutTwo from "../../layouts/LayoutTwo";
 import HeroSliderFour from "../../wrappers/hero-slider/HeroSliderFour";
 import BannerFour from "../../wrappers/banner/BannerFour";
-import TabProduct from "../../wrappers/product/TabProduct";
 import FeatureIconThree from "../../wrappers/feature-icon/FeatureIconThree";
 import Newsletter from "../../wrappers/newsletter/Newsletter";
-import { Link } from "react-router-dom";
 import HomeGridBanner from "./HomeGridBanner";
 
 const HomePage = () => {
