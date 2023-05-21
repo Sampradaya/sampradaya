@@ -40,10 +40,6 @@ const HeaderOne = ({
           borderStyle === "fluid-border" && "border-none" 
         )}
       >
-        <div className={layout === "container-fluid" ? layout : "container"}>
-          {/* header top */}
-          <HeaderTop borderStyle={borderStyle} />
-        </div>
       </div>
 
       <div
@@ -55,15 +51,15 @@ const HeaderOne = ({
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
           <div className="row">
-            <div className="col-xl-2 col-lg-2 col-md-6 col-4">
+            <div className="col-xl-2 col-lg-2 col-md-6 col-4 mb-10">
               {/* header logo */}
-              <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
+              <Logo imageUrl="/assets/img/logo/LOGO3.png" logoClass="logo" />
             </div>
-            <div className="col-xl-8 col-lg-8 d-none d-lg-block">
+            <div className="col-xl-8 col-lg-8 d-none d-lg-block mt-30">
               {/* Nav menu */}
               <NavMenu />
             </div>
-            <div className="col-xl-2 col-lg-2 col-md-6 col-8">
+            <div className="col-xl-2 col-lg-2 col-md-6 col-8 mt-30">
               {/* Icon group */}
               <IconGroup />
             </div>

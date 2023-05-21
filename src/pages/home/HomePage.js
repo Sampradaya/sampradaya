@@ -23,8 +23,8 @@ const HomePage = () => {
 
         
         {/* grid banner */}
+          <HomeGridBanner/>
         
-        <HomeGridBanner/>
         {/* feature icon */}
         <FeatureIconThree
           bgColorClass="bg-gray-2"

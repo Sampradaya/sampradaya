@@ -29,22 +29,12 @@ const HeaderTwo = () => {
       <div className="container">
         <div className="header-top-area d-none d-lg-block">
           <div className="row">
-            <div className="col-lg-5 col-md-8 col-12">
-              {/* language currency changer */}
-              <LanguageCurrencyChanger
-                currency={currency}
-              />
-            </div>
-            <div className="col-lg-2 d-none d-lg-block text-center">
+            <div className="col-lg-2 offset-lg-5 d-none d-lg-block text-center">
               {/* header logo */}
               <Logo
                 imageUrl="/assets/img/logo/LOGO3.png"
                 logoClass="logo-hm-9"
               />
-            </div>
-            <div className="col-lg-5 col-md-4 col-12">
-              {/* Icon group */}
-              <IconGroup />
             </div>
           </div>
         </div>
@@ -64,9 +54,15 @@ const HeaderTwo = () => {
               {/* Icon group */}
               <IconGroup />
             </div>
-            <div className="col-xl-12 col-lg-12 d-none d-lg-block">
+          </div>
+          <div className="row">
+            <div className="col-lg-7 d-none d-lg-block">
               {/* Nav menu */}
               <NavMenu />
+            </div>
+            <div className="col-lg-5 col-md-4 col-12">
+              {/* Icon group */}
+              <IconGroup />
             </div>
           </div>
           {/* mobile menu */}
