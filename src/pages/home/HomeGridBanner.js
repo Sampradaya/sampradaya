@@ -6,7 +6,7 @@ import SectionTitle from "../../components/section-title/SectionTitle";
 const HomeGridBanner = () => {
   return (
     <Fragment>
-      <SectionTitle titleText="DAILY DEALS!" positionClass="text-center " className="product-area hm6-section-padding pt-20"  />
+      <SectionTitle titleText="DAILY DEALS!" positionClass="text-center "   />
         {/* grid banner */}
         <div className="product-area hm6-section-padding  pt-40 pb-80 pl-80 pr-80">
           <div className="container-fluid">
